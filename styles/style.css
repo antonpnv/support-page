@@ -15,35 +15,35 @@ a {
 
 @font-face {
   font-family: 'MuseoSansCyrl';
-  src: url('/assets/fonts/MuseoSansCyrl-100.woff') format('woff');
+  src: url('./assets/fonts/MuseoSansCyrl-100.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl';
-  src: url('/assets/fonts/MuseoSansCyrl-300.woff') format('woff');
+  src: url('./assets/fonts/MuseoSansCyrl-300.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl';
-  src: url('/assets/fonts/MuseoSansCyrl-500.woff') format('woff');
+  src: url('./assets/fonts/MuseoSansCyrl-500.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl';
-  src: url('/assets/fonts/MuseoSansCyrl-700.woff') format('woff');
+  src: url('./assets/fonts/MuseoSansCyrl-700.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MuseoSansCyrl';
-  src: url('/assets/fonts/MuseoSansCyrl-900.woff') format('woff');
+  src: url('./assets/fonts/MuseoSansCyrl-900.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -63,7 +63,7 @@ body {
   height: 306px;
   background-color: #93BBEA;
   border-radius: 40px;
-  background-image: url('/assets/image/background-header.jpeg');
+  background-image: url('./assets/image/background-header.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
