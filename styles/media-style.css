@@ -1,0 +1,170 @@
+/* Tablet */
+@media ((min-width: 481px) and (max-width: 899px)) {
+  .container {
+    min-width: 480px;
+    max-width: 899px;
+  }
+
+  /* header tablet*/
+  .header {
+    background-position: bottom right;
+    margin-bottom: 72px;
+  }
+
+  /* social tablet */
+  .socials {
+    max-width: 85%;
+    margin-bottom: 72px;
+    flex-direction: column;
+  }
+
+  .socials__title {
+    margin-top: 8px;
+  }
+
+  .socials__list {
+    margin: 20px 0;
+  }
+
+  .socials__item {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* carousel tablet */
+  .carousel__track {
+    margin-bottom: 60px;
+  }
+
+  .carousel__card {
+    width: 275px;
+  }
+
+  /* faq tablet */
+  .faq {
+    width: 100%;
+    max-width: 85%;
+  }
+
+  .section__question {
+    width: 64%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .container {
+    min-width: 320px;
+    max-width: 480px;
+  }
+
+  /* header mobile*/
+  .header {
+    height: 400px;
+    background-position: bottom left;
+    margin-bottom: 50px;
+  }
+
+  .header__container {
+    width: 280px;
+  }
+
+  .header__title {
+    font-size: 50px;
+    line-height: 52px;
+  }
+
+  .header__subtitle {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .header__btns {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .header__button {
+    width: 150px;
+    height: 45px;
+  }
+
+  /* socials mobile */
+  .socials {
+    max-width: 85%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .title__section {
+    text-align: center;
+  }
+
+  .socials__subtitle {
+    line-height: 15px;
+  }
+
+  .socials__title {
+    margin-top: 10px;
+    font-size: 35px;
+  }
+
+  .socials__list {
+    justify-content: center;
+    width: 120%;
+    gap: 10px;
+  }
+
+  .socials__item {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* carousel mobile */
+  .carousel__title {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .carousel__track {
+    margin-bottom: 60px;
+    margin-left: 20px;
+  }
+
+  .carousel__card {
+    width: 320px;
+  }
+
+  .carousel__button {
+    width: 55px;
+    height: 55px;
+    right: -1px;
+    top: 60%;
+  }
+
+  /* faq mobile*/
+  .faq {
+    width: 100%;
+    max-width: 85%;
+  }
+
+  .faq__item {
+    height: 90px;
+  }
+
+  .faq__item:nth-child(2),
+  .faq__item:nth-child(4) {
+    height: 144px;
+  }
+
+  .section__question {
+    width: 65%;
+  }
+
+  .faq__question {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+}
