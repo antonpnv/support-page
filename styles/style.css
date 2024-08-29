@@ -63,7 +63,7 @@ body {
   height: 306px;
   background-color: #93BBEA;
   border-radius: 40px;
-  background-image: url('./assets/image/background-header.jpeg');
+  background-image: url('/assets/image/background-header.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
